@@ -1,6 +1,6 @@
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
-import iziToast from "iziToast";
+import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
 let userSelectedDate;
