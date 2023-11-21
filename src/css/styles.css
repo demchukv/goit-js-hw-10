@@ -16,7 +16,7 @@ body {
 /* Timer styles */
 
 .timer {
-  margin-top: 32px;
+  margin: 32px 0 52px;
   display: flex;
   gap: 24px;
 }
@@ -39,7 +39,7 @@ body {
   text-transform: uppercase;
 }
 
-input[type='text'] {
+input {
   font-family: inherit;
   padding: 8px 16px;
   color: #2e2f42;
@@ -52,14 +52,14 @@ input[type='text'] {
   outline: none;
   margin-right: 8px;
 }
-input[type='text']:hover {
+input:hover {
   border: 1px solid #000;
 }
-input[type='text']:active {
+input:active {
   color: #000;
   border: 1px solid #4e75ff;
 }
-input[type='text']:disabled {
+input:disabled {
   color: #808080;
   background: #f5f5f5;
 }
@@ -87,4 +87,21 @@ button:disabled {
 }
 .flatpickr-calendar {
   background: #f5f5f5;
+}
+
+/* promises form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  border: 1px solid #808080;
+  border-radius: 6px;
+}
+legend {
+  padding: 0 4px;
 }
