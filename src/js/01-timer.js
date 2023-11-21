@@ -27,7 +27,6 @@ const options = {
                 position: 'topCenter',
                 iconColor: '#FAFAFB',
                 icon: 'izi-close-icon',
-                //iconUrl: '/goit-js-hw-10/assets/bi_x-octagon.svg',
                 messageColor: '#FAFAFB',
                 messageSize: '16px',
                 backgroundColor: '#FC5A5A',
