@@ -34,13 +34,12 @@ const options = {
                 closeOnClick: true,
                 message: 'Please choose a date in the future!'
             });
-            //alert("Please choose a date in the future");
             startBtn.disabled = true;
         }
     },
 };
 
-const calendar = flatpickr("#datetime-picker", options);
+flatpickr("#datetime-picker", options);
 
 startBtn.addEventListener("click", event => {
     const timerID = setInterval(() => {
