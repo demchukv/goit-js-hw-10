@@ -26,7 +26,8 @@ const options = {
             iziToast.show({
                 position: 'topCenter',
                 iconColor: '#FAFAFB',
-                iconUrl: '/goit-js-hw-10/assets/bi_x-octagon.svg',
+                icon: 'izi-close-icon',
+                //iconUrl: '/goit-js-hw-10/assets/bi_x-octagon.svg',
                 messageColor: '#FAFAFB',
                 messageSize: '16px',
                 backgroundColor: '#FC5A5A',
