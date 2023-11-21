@@ -16,6 +16,7 @@ body {
 /* Timer styles */
 
 .timer {
+  margin-top: 32px;
   display: flex;
   gap: 24px;
 }
@@ -49,6 +50,7 @@ input[type='text'] {
   border: 1px solid #808080;
   width: 272px;
   outline: none;
+  margin-right: 8px;
 }
 input[type='text']:hover {
   border: 1px solid #000;

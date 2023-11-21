@@ -24,11 +24,14 @@ const options = {
             startBtn.disabled = false;
         } else {
             iziToast.show({
-                class: 'alert',
                 position: 'topCenter',
+                iconColor: '#FAFAFB',
+                iconUrl: '../img/bi_x-octagon.svg',
                 messageColor: '#FAFAFB',
                 messageSize: '16px',
                 backgroundColor: '#FC5A5A',
+                close: false,
+                closeOnClick: true,
                 message: 'Please choose a date in the future!'
             });
             //alert("Please choose a date in the future");
