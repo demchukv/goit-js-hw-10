@@ -1,5 +1,7 @@
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
+import iziToast from "iziToast";
+import "izitoast/dist/css/iziToast.min.css";
 
 let userSelectedDate;
 
@@ -21,7 +23,15 @@ const options = {
             userSelectedDate = selectedDates[0].getTime();
             startBtn.disabled = false;
         } else {
-            alert("Please choose a date in the future");
+            iziToast.show({
+                class: 'alert',
+                position: 'topCenter',
+                messageColor: '#FAFAFB',
+                messageSize: '16px',
+                backgroundColor: '#FC5A5A',
+                message: 'Please choose a date in the future!'
+            });
+            //alert("Please choose a date in the future");
             startBtn.disabled = true;
         }
     },
